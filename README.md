@@ -20,7 +20,7 @@ Welcome to my portfolio for the course **ITAI 3377: AI for Edge and IIoT Systems
 ## 🎥 Presentation
 
 Final summary presentation:  
-[Pf_Win_Aung_ITAI3377.pdf](./Pf_Win_Aung_ITAI3377.pdf)
+[Pf_Win_Aung_ITAI3377.pdf]()
 
 ---
 
