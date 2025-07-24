@@ -34,6 +34,34 @@ Final summary presentation:
 
 ---
 
+## 🖤 Converting Notebooks to Black & White
+
+Some reports require grayscale images and plots for clear printing. Jupyter's
+extension system makes it easy to convert all notebook outputs to black and
+white.
+
+1. **Install the nbextension tools**:
+   ```bash
+   pip install jupyter_contrib_nbextensions jupyter_nbextensions_configurator
+   jupyter contrib nbextension install --user
+   jupyter nbextensions_configurator enable --user
+   ```
+2. **Create a grayscale extension** by adding the following CSS to a file
+   named `bw.css`:
+   ```css
+   img, svg { filter: grayscale(100%); }
+   ```
+3. **Install and enable the extension**:
+   ```bash
+   jupyter nbextension install bw.css --user --destination bw
+   jupyter nbextension enable bw/main
+   ```
+
+Once enabled, any notebook opened in Jupyter will display plots and images in
+grayscale, allowing consistent black‑and‑white exports.
+
+---
+
 ## 👨‍💻 Author
 
 **Win Aung**  
